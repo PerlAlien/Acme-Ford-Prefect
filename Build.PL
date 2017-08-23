@@ -22,7 +22,7 @@ my $builder = Module::Build->new(
       'Acme::Alien::DontPanic' => '0.038',
     },
     test_requires => {
-      'Test::More'    => 0,
+      'Test2::V0'    => 0,
     },
     build_requires    => {
       'ExtUtils::CBuilder' => 0,
