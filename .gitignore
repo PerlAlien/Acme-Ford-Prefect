@@ -1,9 +1,6 @@
-/Build
-/Build.bat
-/MYMETA.*
-/_build
-/blib
+/Acme-Ford-Prefect-*
+/.build
 /lib/Acme/Ford/Prefect.c
 /lib/Acme/Ford/Prefect.o
-/Acme-Ford-Prefect-*
 *.bak
+*.swp
