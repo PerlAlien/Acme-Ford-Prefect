@@ -2,7 +2,6 @@ package Acme::Ford::Prefect;
 
 use strict;
 use warnings;
-use Acme::Alien::DontPanic;
 
 # ABSTRACT: Test Module for Alien::Base
 # VERSION
