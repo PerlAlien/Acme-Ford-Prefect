@@ -2,13 +2,12 @@ package Acme::Ford::Prefect;
 
 use strict;
 use warnings;
-use base qw( DynaLoader );
+use XSLoader;
 
 # ABSTRACT: Test Module for Alien::Base
 # VERSION
 
-__PACKAGE__->bootstrap($VERSION);
-$VERSION = eval $VERSION;  ## no critic (BuiltinFunctions::ProhibitStringyEval)
+XSLoader::load(__PACKAGE__, $VERSION);
 
 1;
 
