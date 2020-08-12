@@ -1,4 +1,4 @@
-# Acme::Ford::Prefect [![Build Status](https://secure.travis-ci.org/Perl5-Alien/Acme-Ford-Prefect.png)](http://travis-ci.org/Perl5-Alien/Acme-Ford-Prefect)
+# Acme::Ford::Prefect [![Build Status](https://travis-ci.org/PerlAlien/Acme-Ford-Prefect.svg)](http://travis-ci.org/PerlAlien/Acme-Ford-Prefect)
 
 Test Module for Alien::Base
 
