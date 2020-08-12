@@ -12,12 +12,10 @@ my $post_diag;
 $modules{$_} = $_ for qw(
   Acme::Alien::DontPanic
   Alien::Base::Wrapper
-  DynaLoader
-  ExtUtils::Installed
   ExtUtils::MakeMaker
-  File::Find
   Test2::V0
   Test::Alien::Diag
+  XSLoader
 );
 
 
