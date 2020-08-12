@@ -2,14 +2,13 @@ package Acme::Ford::Prefect;
 
 use strict;
 use warnings;
+use base qw( DynaLoader );
 
 # ABSTRACT: Test Module for Alien::Base
 # VERSION
 
-require DynaLoader;
-our @ISA = 'DynaLoader';
 __PACKAGE__->bootstrap($VERSION);
-$VERSION = eval $VERSION;
+$VERSION = eval $VERSION;  ## no critic (BuiltinFunctions::ProhibitStringyEval)
 
 1;
 
