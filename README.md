@@ -44,7 +44,7 @@ Returns the answer to life the universe and everything.  Not exported.
 
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2012-2020 by Joel Berger.
+This software is copyright (c) 2012-2022 by Joel Berger.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
