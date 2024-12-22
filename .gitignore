@@ -4,3 +4,5 @@
 /lib/Acme/Ford/Prefect.o
 *.bak
 *.swp
+*.old
+*.orig
